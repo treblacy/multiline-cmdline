@@ -1,0 +1,9 @@
+#!/usr/bin/env mlcl
+ls
+# this is a comment, and the next one comments out something
+# -L
+-l -a
+--color='never'
+"${PWD}"
+;
+echo -e '\nCiao!\n'
