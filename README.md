@@ -19,7 +19,7 @@ ls
 echo -e '\nCiao!\n'
 ```
 
-This results in exec'ing /bin/bash with:
+This results in exec'ing `/bin/bash` with:
 
-* argv[1]: -c
-* argv[2]: ls -l -a --color='never' "${PWD}" ; echo -e '\nCiao!\n' 
+* argv[1]: `-c`
+* argv[2]: `ls -l -a --color='never' "${PWD}" ; echo -e '\nCiao!\n' `
